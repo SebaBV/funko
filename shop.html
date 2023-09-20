@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header> <!-- Inicio Header -->
+        <nav>
+          <picture> 
+              <a href="index.html">
+                <img src="./img/branding/logo_light_horizontal.svg" alt="Isologotipo de la Marca Funoshop">
+              </a>
+          </picture>
+          <ul>
+            <li><a href="./pages/shop.html">VER TIENDA</a></li>
+            <li><a href="./pages/contacto.html">ADMIN</a></li>
+            <li><a href="./pages/login.html">SALIR</a></li>
+          </ul>
+        </nav>
+    </header> <!-- Fin   Header -->
+
+    <aside>
+        <h2>BUSCAR</h2>
+          <form>
+            <label for="fname"></label>
+            <input type="text" id="fname" name="fname" value="ítem o categoría">
+          </form>
+
+        <h2>ORDENAR POR</h2>
+          <form action="/">
+            <input list="ordenar" name="ordenar" value="Mayor a menor">
+            <datalist id="ordenar">
+             <option value="LUNA LOVEGOOD LION MASK">
+             <option value="STORMTROOPER LIGHTSABER">
+             <option value="PIDGEOTTO">
+            </datalist>
+          </form>
+
+        <h2>PRECIO</h2>
+        <form action="">
+            <p>MIN</p>
+            <label for="precio"></label>
+            <input type="min" id="min" name="min" value="0">
+            <p> - MAX</p>
+            <label for="precio"></label>
+            <input type="max" id="max" name="max" value="0">
+        </form>
+
+        <h2>FILTRAR</h2>
+          <form action="/">
+            <input type="checkbox" id="nuevos" name="nuevos" value="New">
+            <label for="nuevos"> NUEVOS</label><br>
+  
+            <input type="checkbox" id="ofertas" name="ofertas" value="Sake">
+            <label for="ofertas"> OFERTAS</label><br>
+  
+            <input type="checkbox" id="especial" name="especial" value="Edicion">
+            <label for="especial"> EDICIÓN ESPECIAL</label><br>
+  
+            <input type="checkbox" id="favoritos" name="favoritos" value="Favoritos">
+            <label for="favoritos"> FAVORITOS</label><br><br>
+          </form> 
+    </aside>
+
+    <section> <!-- Inicio Ultimos Lanzamientos -->
+    <h2>ÚLTIMOS LANZAMIENTOS</h2>
+    <ul>
+        <li>
+            <article>
+                <a href=""></a>
+                <picture>
+                    <img src="./img/star-wars/trooper-1.webp" alt="Figura coleccionable Funko de Stormtrooper Lightsaber de la serie Star Wars">
+                </picture>
+                <div>
+                    <p>STAR WARS</p>
+                    <h4>STORMTROOPER LIGHTSABER</h4>
+                    <p>$ 1799,99</p>
+                    <p>3 CUOTAS SIN INTERÉS</p>
+                </div>
+            </article>
+        </li>
+
+        <li>
+            <article>
+                <a href=""></a>
+                <picture>
+                    <img src="/img/pokemon/pidgeotto-1.webp" alt="Figura coleccionable Funko de Pidgeotto de la serie Pokemon">
+                </picture>
+                <div>
+                    <p>POKEMON</p>
+                    <h4>PIDGEOTTO</h4>
+                    <p>$ 1799,99</p>
+                    <p>3 CUOTAS SIN INTERÉS</p>
+                </div>
+            </article>
+        </li>
+
+        <li>
+            <article>
+                <a href=""></a>
+                <picture>
+                    <img src="./img/harry-potter/luna-1.webp" alt="Figura coleccionable Funko de Luna Lovegood Lion Mask de la serie Harry Potter">
+                </picture>
+                <div>
+                    <p>HARRY POTTER</p>
+                    <h4>LUNA LOVEGOOD LION MASK</h4>
+                    <p>$ 1799,99</p>
+                    <p>3 CUOTAS SIN INTERÉS</p>
+                </div>
+            </article>
+        </li>
+    </ul>
+    </section>   <!-- Fin Ultimos Lanzamientos -->
+
+    <footer> <!-- Inicio Footer -->
+
+    <section>
+        <nav>
+                <ul>
+                     <li>
+                        <a href="./pages/shop.html">SHOP</a>
+                     </li>
+                     <li>
+                        <a href="./pages/registrarse.html">REGISTRARSE</a>
+                     </li>
+                     <li>
+                        <a href="./pages/ingresar.html">INGRESAR</a>
+                     </li>
+                     <li>
+                         <a href="./pages/contact.html">CONTACTO</a>
+                     </li>
+  
+                </ul>
+                        <picture>
+                            <img src="./img/branding/isotype.svg" alt="Isotipo de la marca Funkoshop">
+                        </picture>
+        </nav>
+        <p>All rights reserved 2023 - Funkoshop & copy</p>
+    </section>
+   
+    </footer>   <!-- Fin Footer -->
+</body>
+</html>
