@@ -52,7 +52,7 @@
             <p class="collection__text">Disfruta de una saga que sigue agregando personajes a su colección.</p>
             <a class="collection__link" href="./pages/shop">VER COLECCION</a>
     </article>
-    <picture class="collection_cover">
+    <picture class="collection__cover">
         <img src="./img/star-wars/baby-yoda-1.webp" alt="Figura coleccionable Funko de Grogu de la serie The Mandalorian">
     </picture>
     </section>
@@ -62,7 +62,7 @@
             <p class="collection__text">Atrapa todos los que puedas y disfruta de una colección llena de amigos.</p>
             <a class="collection__link" href="./pages/shop">VER COLECCION</a>
         </article>
-        <picture class="collection_cover">
+        <picture class="collection__cover">
             <img src="./img/pokemon/vulpix-1.webp" alt="Figura coleccionable Funko de Vulpix de la serie Pokemon">
         </picture>
     </section>
@@ -72,55 +72,61 @@
             <p class="collection__text">Revive los recuerdos de una saga llena de magia y encanto.</p>
             <a class="collection__link" href="./pages/shop">VER COLECCION</a>
         </article>
-        <picture class="collection_cover">
+        <picture class="collection__cover">
             <img src="./img/harry-potter/snape-patronus-1.webp" alt="Figura coleccionable Funko de Snape PAtronus de la serie Harry Potter">
         </picture>
     </section>
 
-    <section> <!-- Inicio Ultimos Lanzamientos -->
-        <h2>ÚLTIMOS LANZAMIENTOS</h2>
-        <ul>
-            <li>
-                <article>
-                    <a href=""></a>
-                    <picture>
-                        <img src="./img/star-wars/trooper-1.webp" alt="Figura coleccionable Funko de Stormtrooper Lightsaber de la serie Star Wars">
+    <section class="slider container"> <!-- Inicio Ultimos Lanzamientos -->
+        <h2 class="slider__title">ÚLTIMOS LANZAMIENTOS</h2>
+        <ul class="slider__items">
+            <li class="slider__item">
+                <article class="card-item">
+                    <a class="card-item__link"  href=""></a>
+                    <picture class="card-item__cover">
+                        <span class="card-item__tag">Nuevo</span>
+                        <img class="card-item__img--front" src="./img/star-wars/trooper-1.webp" alt="Figura coleccionable Funko de Stormtrooper Lightsaber de la serie Star Wars">
+                        <img class="card-item__img--back" src="./img/star-wars/trooper-box.webp" alt="Figura coleccionable Funko de Stormtrooper en caja">
                     </picture>
-                    <div>
-                        <p>STAR WARS</p>
-                        <h4>STORMTROOPER LIGHTSABER</h4>
-                        <p>$ 1799,99</p>
-                        <p>3 CUOTAS SIN INTERÉS</p>
+                    <div class="card-item__content">
+                        <p class="card-item__licence">STAR WARS</p>
+                        <h4 class="card-item__name">STORMTROOPER LIGHTSABER</h4>
+                        <p class="card-item__price">$ 1799,99</p>
+                        <p class="card-item__promo">3 CUOTAS SIN INTERÉS</p>
                     </div>
                 </article>
             </li>
 
-            <li>
-                <article>
-                    <a href=""></a>
-                    <picture>
-                        <img src="/img/pokemon/pidgeotto-1.webp" alt="Figura coleccionable Funko de Pidgeotto de la serie Pokemon">
+            <li class="slider__item">
+                <article class="card-item">
+                    <a class="card-item__link" href=""></a>
+                    <picture class="card-item__cover">
+                        <span class="card-item__tag">Nuevo</span>
+                        <img class="card-item__img--front" src="/img/pokemon/pidgeotto-1.webp" alt="Figura coleccionable Funko de Pidgeotto de la serie Pokemon">
+                        <img class="card-item__img--back" src="./img/pokemon/pidgeotto-box.webp" alt="Figura coleccionable Funko de Pidgeotto en caja">
                     </picture>
-                    <div>
-                        <p>POKEMON</p>
-                        <h4>PIDGEOTTO</h4>
-                        <p>$ 1799,99</p>
-                        <p>3 CUOTAS SIN INTERÉS</p>
+                    <div class="card-item__content">
+                        <p class="card-item__licence">POKEMON</p>
+                        <h4 class="card-item__name">PIDGEOTTO</h4>
+                        <p class="card-item__price">$ 1799,99</p>
+                        <p class="card-item__promo">3 CUOTAS SIN INTERÉS</p>
                     </div>
                 </article>
             </li>
 
-            <li>
-                <article>
-                    <a href=""></a>
-                    <picture>
-                        <img src="./img/harry-potter/luna-1.webp" alt="Figura coleccionable Funko de Luna Lovegood Lion Mask de la serie Harry Potter">
+            <li class="slider__item">
+                <article class="card-item">
+                    <a class="card-item__link" href=""></a>
+                    <picture class="card-item__cover">
+                        <span class="card-item__tag">Nuevo</span>
+                        <img class="card-item__img--front" src="./img/harry-potter/luna-1.webp" alt=" Lion Mask de la serie Figura coleccionable Funko de Luna LovegoodHarry Potter">
+                        <img class="card-item__img--back" src="./img/harry-potter/luna-box.webp" alt="Lion Mask de la serie Figura coleccionable Funko de Luna LovegoodHarry Potter en caja">
                     </picture>
-                    <div>
-                        <p>HARRY POTTER</p>
-                        <h4>LUNA LOVEGOOD LION MASK</h4>
-                        <p>$ 1799,99</p>
-                        <p>3 CUOTAS SIN INTERÉS</p>
+                    <div class="card-item__content">
+                        <p class="card-item__licence">HARRY POTTER</p>
+                        <h4 class="card-item__name">LUNA LOVEGOOD LION MASK</h4>
+                        <p class="card-item__price">$ 1799,99</p>
+                        <p class="card-item__promo">3 CUOTAS SIN INTERÉS</p>
                     </div>
                 </article>
             </li>
