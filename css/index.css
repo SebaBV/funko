@@ -3,16 +3,16 @@
 :root {
     /*Palette*/
     --primary-solid: #FF3333;
-    --primary--900: rgb(255, 51, 51, 0.9);
-    --primary--500: rgb(255, 51, 51, 0.5);
-    --primary--300: rgb(255, 51, 51, 0.3);
+    --primary-900: rgb(255, 51, 51, 0.9);
+    --primary-500: rgb(255, 51, 51, 0.5);
+    --primary-300: rgb(255, 51, 51, 0.3);
 
-    --secondary-solid: #1d8485;
+    --secondary-solid: #1D8485;
     --secondary-900: rgb(29, 132, 181, 0.9);
     --secondary-500: rgb(29, 132, 181, 0.5);
     --secondary-300: rgb(29, 132, 181, 0.3);
 
-    --dark-solid: #1f1f1f;
+    --dark-solid: #1F1F1F;
     --dark-900: rgb(31, 31, 31, 0.9);
     --dark-500: rgb(31, 31, 31, 0.5);
     --dark-300: rgb(31, 31, 31, 0.3);
@@ -123,7 +123,7 @@ header {
 }
 
 .navbar__link:hover {
-    background-color: var(--primary--900);
+    background-color: var(--primary-900);
 }
 
 .with-icon {
@@ -152,7 +152,7 @@ header {
 }
 
 .submenu__link:hover {
-    background-color: var(--primary--900);
+    background-color: var(--primary-900);
 }
 
 /*HERO */
@@ -209,7 +209,7 @@ header {
 }
 
 .hero__link:hover {
-    background-color: var(--primary--900);
+    background-color: var(--primary-900);
     color: var(--light-font-solid);
 }
 
@@ -259,7 +259,7 @@ header {
 }
 
 .collection__link:hover {
-    background-color: var(--primary--900);
+    background-color: var(--primary-900);
 }
 
 /* SLIDER */
